@@ -27,7 +27,7 @@ class _CreatePostScreenState extends State<CreatePostScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Nueva publicación")),
+      appBar: AppBar(title: const Text("Publica lo que piensas")),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
