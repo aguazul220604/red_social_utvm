@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:red_social_utvm/screens/feed_screen.dart';
+import 'package:red_social_utvm/screens/login_screen.dart';
 import 'package:red_social_utvm/service/api_service.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Mini Red Social',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: FeedScreen(api: api),
+      home: LoginScreen(api: api), 
     );
   }
 }
